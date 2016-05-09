@@ -1,0 +1,161 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	width: 300px;
+	height: 50px;
+}
+.buscar {
+	font-size: 10px;
+	position: absolute;
+	left: 1000px;
+	top: 5px;
+	padding: 10px;
+}
+ header h5  {
+	color: #F2F2F2;
+	font-size: 14px;
+	top: 20px;
+	position: relative;
+	right: 70px;
+}
+.banner{
+	font-family: Helvetica;
+}
+.bighero{
+	position: relative;
+}
+.edad {
+	height: 34px;
+	width: 67px;
+	background-color: transparent;
+	color: #01DF01;
+	font-size: 15px;
+ 	text-align: center;
+    border: 1.5px solid #01DF01;
+    border-radius: 10px;
+  	padding-top: 9px;
+  	margin-bottom: 10px;
+  	margin-right: 15px;
+  	float: left;
+}
+.banner h1{
+	color: #B0B0B0;
+	font-size: 47px;
+}
+.banner h5{
+	color: white;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.banner p {
+	font-size: 12px;
+	color: white;
+	bottom: 80px;
+}
+ul {
+	font-size: 14px;
+	color: white;
+	list-style-type: none;
+}
+.watch {
+	height: 40px;
+	width: 160px;
+	background-color: yellow;
+	color: white;
+	font-size: 15px;
+ 	text-align: center;
+    border-radius: 10px;
+  	padding-top: 10px;
+  	margin: 5px;
+}
+.book {
+	background-color: orange;
+}
+.watch a{
+	text-decoration: none;
+	color: white;
+}
+.movie{
+	background-color: #orange;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.img1{
+	width: 190px;
+	height: 240px;
+	position: relative;	
+	max-width: 100%;
+	margin-right: 10px;
+}
+.video {
+	width: 2000px;
+	height: 500px;
+}
+.ticket {
+	font-family: Helvetica;
+	position: relative;
+	margin-top: 40px;
+}
+ .ticket p{
+	color: #B0B0B0;
+	font-size: 12px;
+}
+.ticket h3{
+	color: #B0B0B0;
+}
+ .ticket h5{
+	color: #B0B0B0;
+}
+ .ticket h4{
+	color: #B0B0B0;
+}
+.get{
+	color: orange;
+}
+.book1 {
+	height: 40px;
+	width: 160px;
+	background-color: orange;
+	color: white;
+	font-size: 15px;
+ 	text-align: center;
+    border-radius: 10px;
+  	padding: 12px;
+  	margin: 5px;
+}
+.book1 a{
+	text-decoration: none;
+	color: white;
+}
+.movie2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.img2{
+	width: 250px;
+	height: 270px;
+	max-width: 100%;
+	position: relative;	
+	margin-top: 40px;
+}
+.movie{
+	background-color: #FFA500;
+	
+}
+footer{
+	background-color: #F2F2F2;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+footer h5{
+	color: #BDBDBD;
+}
+footer p{
+	color: #BDBDBD;
+}
+footer h6{
+	color: #BDBDBD;
+}
