@@ -6,15 +6,17 @@ body {
 	width: 300px;
 	height: 50px;
 }
+input{
+	padding: 10px;
+}
 .buscar {
 	font-size: 10px;
 	position: absolute;
 	left: 1000px;
 	top: 5px;
-	padding: 10px;
 }
  header h5  {
-	color: #F2F2F2;
+	color: #B4B4B4;
 	font-size: 14px;
 	top: 20px;
 	position: relative;
@@ -23,7 +25,7 @@ body {
 .banner{
 	font-family: Helvetica;
 }
-.bighero{
+.bighero, .columna2{
 	position: relative;
 }
 .edad {
@@ -33,12 +35,12 @@ body {
 	color: #01DF01;
 	font-size: 15px;
  	text-align: center;
-    border: 1.5px solid #01DF01;
-    border-radius: 10px;
-  	padding-top: 9px;
-  	margin-bottom: 10px;
-  	margin-right: 15px;
-  	float: left;
+  border: 1.5px solid #01DF01;
+  border-radius: 10px;
+  padding-top: 9px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  float: left;
 }
 .banner h1{
 	color: #B0B0B0;
@@ -59,6 +61,13 @@ ul {
 	color: white;
 	list-style-type: none;
 }
+.columna2{
+	bottom: 95px;
+	left: 100px;
+}
+.parrafo{
+	margin-top: -60px;
+}
 .watch {
 	height: 40px;
 	width: 160px;
@@ -66,19 +75,25 @@ ul {
 	color: white;
 	font-size: 15px;
  	text-align: center;
-    border-radius: 10px;
-  	padding-top: 10px;
-  	margin: 5px;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 5px;
 }
-.book {
+.watch:hover, .book1:hover {
+	background-color:#FF2A2A;
+}
+.book, .get, .movie{
 	background-color: orange;
 }
-.watch a{
+.get{
+	padding: 10px;
+	color: white;
+}
+a{
 	text-decoration: none;
 	color: white;
 }
 .movie{
-	background-color: #orange;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -102,17 +117,8 @@ ul {
 	color: #B0B0B0;
 	font-size: 12px;
 }
-.ticket h3{
+.ticket h3, h4, h5{
 	color: #B0B0B0;
-}
- .ticket h5{
-	color: #B0B0B0;
-}
- .ticket h4{
-	color: #B0B0B0;
-}
-.get{
-	color: orange;
 }
 .book1 {
 	height: 40px;
@@ -121,9 +127,9 @@ ul {
 	color: white;
 	font-size: 15px;
  	text-align: center;
-    border-radius: 10px;
-  	padding: 12px;
-  	margin: 5px;
+  border-radius: 10px;
+ 	padding: 12px;
+ 	margin: 5px;
 }
 .book1 a{
 	text-decoration: none;
@@ -140,22 +146,12 @@ ul {
 	position: relative;	
 	margin-top: 40px;
 }
-.movie{
-	background-color: #FFA500;
-	
-}
 footer{
 	background-color: #F2F2F2;
 	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
-footer h5{
-	color: #BDBDBD;
-}
-footer p{
-	color: #BDBDBD;
-}
-footer h6{
+footer h5, p, h6{
 	color: #BDBDBD;
 }

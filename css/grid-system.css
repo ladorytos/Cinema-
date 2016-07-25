@@ -23,6 +23,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 .row {
 	margin-left: -14px;
